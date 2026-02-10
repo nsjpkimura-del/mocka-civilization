@@ -1,18 +1,25 @@
-# derived-civilizations/
-## 文書番号：MOCKA-DERIVED-README-v1.0
+# Derived Civilizations（派生文明格納領域）
+## 文書番号：MOCKA-DERIVED-CIVILIZATIONS-README-v1.0
+## 区分：派生文明格納領域（追記のみ可）
 
-本フォルダは、Phase8 Step3 における
-検証用派生文明を格納する領域である。
+本フォルダは、Genesis Protocol によって生成された派生文明（Derived Civilization）を格納するための公式領域である。
 
-## 内容
-- experiments/
-  派生文明（検証用）の Bus・Repo・実行ログを格納する
+---
 
-- archive/
-  破棄済み文明の記録（任意）
+# 1. 目的
+- 派生文明を体系的に保存する
+- 文明生成の再現性を保証する
+- 文脈継承（Phase5）と lineage-registry の整合性を維持する
 
-## 運用規定
-- 派生文明は原文明と完全に分離すること
-- Bus と Repo は必ず別ディレクトリを使用する
-- 評価・優劣の記述は禁止
-- 記録は事実のみを扱う
+---
+
+# 2. フォルダ構造
+派生文明が生成されるたびに、以下の形式でフォルダを作成する。
+
+```text
+derived-civilizations/
+  <civilization-name>/
+    README.md
+    initial_state.md
+    generation_log.md
+    context_inheritance.md
