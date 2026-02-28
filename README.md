@@ -1,4 +1,6 @@
-﻿# MoCKA Civilization
+﻿[Whitepaper v0.1](./WHITEPAPER_v0.1.md)
+
+# MoCKA Civilization
 
 ## Blueprint for Institutional AI Evolution  
 MoCKA Civilization ― 制度化されたAI進化の設計図
@@ -51,4 +53,5 @@ MoCKA Civilization はそれらの長期持続構造を探究します。
 ---
 Part of the MoCKA Deterministic Governance Architecture.
 See Civilization layer for full structural doctrine.
+
 
