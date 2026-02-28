@@ -47,3 +47,8 @@ MoCKA Knowledge Gate が制度的記憶を保持するのに対し、
 MoCKA Civilization はそれらの長期持続構造を探究します。
 
 これは製品ではなく、制度設計の青写真です。
+
+---
+Part of the MoCKA Deterministic Governance Architecture.
+See Civilization layer for full structural doctrine.
+
