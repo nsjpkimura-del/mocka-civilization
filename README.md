@@ -1,5 +1,7 @@
 ﻿[Whitepaper v0.1](./WHITEPAPER_v0.1.md)
 
+Evolutionary blueprint layer.
+
 # MoCKA Civilization
 
 ## Blueprint for Institutional AI Evolution  
