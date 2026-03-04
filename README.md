@@ -105,3 +105,7 @@ SYSTEM_OVERVIEW.md から読む。
 最後に AI_GOVERNANCE_REFERENCE_ARCHITECTURE.md で構造モデルを理解する。
 ## Role
 Primary Role: Institutional Memory
+
+## Research Map
+See: RESEARCH_MAP.md
+
