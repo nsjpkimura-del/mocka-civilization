@@ -1,101 +1,90 @@
-﻿# MoCKA Civilization
+﻿# MoCKA Ecosystem
 
-MoCKA Civilization defines the governance doctrine, constitutional principles, and institutional structure of the MoCKA Ecosystem.
+## EN — Overview
 
-It formalizes responsibility boundaries, cryptographic commitments, and the rules under which AI agents operate.
+MoCKA is a verifiable AI governance architecture designed for deterministic decision systems.
 
-This repository is the doctrinal core of the ecosystem.
+The ecosystem separates operational domains into **Infield** and **Outfield** to ensure:
 
-## Architecture Overview
+• deterministic orchestration  
+• cryptographic auditability  
+• institutional memory preservation  
+• public transparency and verification  
 
-Civilization sits above execution and memory layers.
-It defines the rules that other repositories must follow.
+Every artifact inside the ecosystem is designed to be **reproducible, verifiable, and auditable**.
 
-![MoCKA Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+Architecture Overview
 
-## Security Model
+![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
 
-Threat assumptions:
 
-- Undefined responsibility boundaries
-- Governance drift
-- Unauthorized structural modification
-- Ambiguity in cryptographic authority
+## JP — 概要
 
-Controls:
+MoCKA は、決定論的 AI システムのための  
+**検証可能な統治アーキテクチャ**です。
 
-- Explicit constitutional definitions
-- Documented governance layers
-- Clear separation of institutional roles
-- Ed25519-based commitment model
-- Traceable revision history
+システムは **Infield / Outfield** の領域分離によって
 
-Civilization does not execute.
-It defines what is allowed to execute.
+・決定論的オーケストレーション  
+・暗号学的監査可能性  
+・制度的記憶の保存  
+・公開検証による透明性  
 
-## Repository Responsibility
+を実現します。
 
-This repository focuses on:
+本エコシステム内の成果物はすべて
 
-- Governance doctrine and institutional definitions
-- Constitutional documents
-- Role separation and authority models
-- Change management principles
+**再現可能・検証可能・監査可能**
 
-## Relationship to Ecosystem
+であることを前提として設計されています。
 
-- MoCKA: implements governed execution
-- Knowledge Gate: preserves governed memory
-- Transparency: publishes governed proof
-- External Brain: operates under defined constraints
+Architecture Overview
+
+![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+
 
 ---
 
-# MoCKA Civilization（日本語）
+## Repository Position
 
-MoCKA Civilization は、MoCKA エコシステムの統治思想・憲章原則・制度構造を定義する層です。
+EN  
+This repository represents one component of the MoCKA ecosystem.
 
-責任境界、暗号的コミットメント、AIエージェントが従うべき規範を明文化します。
+JP  
+このリポジトリは MoCKA エコシステムの構成要素の一つです。
 
-本リポジトリは思想的中枢です。
 
-## Architecture Overview（全体図）
+---
 
-Civilization は実行層・記憶層の上位に位置します。
-他レイヤが従うべき規則を定義します。
+## MoCKA Ecosystem
 
-![MoCKA Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+| Repository | Role |
+|---|---|
+| MoCKA | Deterministic orchestration core |
+| MoCKA-KNOWLEDGE-GATE | Institutional memory layer |
+| mocka-civilization | Governance doctrine |
+| mocka-transparency | Public verification layer |
+| mocka-external-brain | External interoperability |
+| mocka-core-private | Sovereign canonical domain |
 
-## Security Model（脅威と対策）
 
-想定脅威：
+---
 
-- 責任境界の曖昧化
-- 統治方針の漂流
-- 無権限な構造変更
-- 暗号的権限の不明確化
+## Security Model
 
-対策：
+EN  
+MoCKA enforces deterministic behavior and verifiable state transitions using:
 
-- 明示的な憲章定義
-- 文書化された統治層構造
-- 役割分離の徹底
-- Ed25519 による統治コミット
-- 追跡可能な改訂履歴
+• cryptographic signatures  
+• hash chains  
+• reproducible artifacts  
+• governance constraints  
 
-Civilization は実行しません。
-実行の許可条件を定義します。
+JP  
+MoCKA は以下により決定論的挙動と検証可能状態遷移を保証します。
 
-## 本リポジトリの責務
+・暗号署名  
+・ハッシュ連鎖  
+・再現可能アーティファクト  
+・統治制約
 
-- 統治思想の定義
-- 憲章文書の維持
-- 権限モデルの明確化
-- 変更管理原則の策定
-
-## エコシステム関係
-
-- MoCKA：統治下で実行
-- Knowledge Gate：統治下で保存
-- Transparency：統治下で公開
-- External Brain：定義された制約下で接続
